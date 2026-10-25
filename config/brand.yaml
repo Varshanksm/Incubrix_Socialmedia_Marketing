@@ -1,0 +1,75 @@
+# Brand voice rules (plan.md §6). The engine lints every asset against these before it can be Ready.
+name: IncuBrix
+
+voice:
+  hook_max_words: 12
+  avg_sentence_max_words: 18
+  emoji_max: 2
+  banned_words:
+    - revolutionary
+    - game-changer
+    - game changer
+    - unleash
+    - supercharge
+    - 10x
+    - magic
+    - magical
+    - effortless
+    - effortlessly
+    - best-in-class
+    - cutting-edge
+    - in today's world
+    - look no further
+  # Phrases that make a hook generic (the "Useful" check)
+  generic_hooks:
+    - here's why
+    - you won't believe
+    - let's talk about
+    - in this post
+    - did you know
+    - check this out
+
+# One CTA per post, chosen by how the platform handles links. No feature or pricing claims here until they
+# are verified in claims.yaml.
+cta:
+  in_post: "Try it on your next episode: {link}"
+  first_comment: "Try it on your next episode. Link in the first comment."
+  bio: "Try it on your next episode. Link in bio."
+  channel: "Try it on your next episode. Link on the channel page."
+  last_post: "Try it on your next episode: {link}"
+
+pillars:
+  P1:
+    name: Repurposing playbooks
+    keywords: [repurpose, repurposing, week, episode, workflow, clips, one recording, reuse, batch]
+    hashtags: ["#ContentRepurposing", "#PodcastTips", "#CreatorTips", "#ContentStrategy", "#VideoPodcast"]
+  P2:
+    name: Show, don't tell
+    keywords: [demo, show, watch, before, after, product, tool, screen]
+    hashtags: ["#CreatorTools", "#VideoEditing", "#ContentCreation", "#PodcastProduction", "#Shorts"]
+  P3:
+    name: Platform craft
+    keywords: [hook, caption, captions, retention, linkedin, instagram, shorts, reels, algorithm, thumbnail, first line]
+    hashtags: ["#Hooks", "#SocialMediaTips", "#ShortFormVideo", "#LinkedInTips", "#ReelsTips"]
+  P4:
+    name: Edit teardowns
+    keywords: [edit, editing, cut, cuts, pause, filler, pacing, teardown, trim]
+    hashtags: ["#VideoEditing", "#EditingTips", "#PodcastEditing", "#ContentCreator", "#YouTubeTips"]
+  P5:
+    name: Creator ops
+    keywords: [team, editor, approval, handoff, calendar, schedule, process, system, batching, client]
+    hashtags: ["#CreatorBusiness", "#ContentOps", "#ContentCalendar", "#Productivity", "#SmallTeams"]
+
+design:
+  background: "#0F1720"
+  panel: "#16212C"
+  text: "#F5F7FA"
+  muted: "#A9B4C0"
+  accent: "#FFB547"
+  # OFL fonts go in templates/fonts/ (see templates/fonts/README.md). Missing files fall back to Pillow's
+  # built-in Aileron (CC0), which is fine for testing.
+  fonts:
+    heading: templates/fonts/Inter-Bold.ttf
+    body: templates/fonts/Inter-Regular.ttf
+  # Family name used in burned video captions (libass looks it up in templates/fonts/)
+  video_font_family: Inter

@@ -1,0 +1,26 @@
+# One "week" of content from one input. Shares come from the counts; the allocator keeps the
+# library close to these proportions. Entries marked needs: media are only used for audio/video inputs.
+default_count: 20
+
+week:
+  - {platform: LinkedIn, format: Text post, count: 3}
+  - {platform: YouTube Shorts, format: Short video, count: 3, needs: media}
+  - {platform: Instagram, format: Carousel, count: 2}
+  - {platform: Instagram, format: Short video, count: 3, needs: media}
+  - {platform: LinkedIn, format: Carousel, count: 2}
+  - {platform: X, format: Thread, count: 3}
+  - {platform: Threads, format: Text post, count: 2}
+  - {platform: LinkedIn, format: Short video, count: 1, needs: media}
+  - {platform: Instagram, format: Graphic, count: 1}
+
+# Each idea ("moment") may feed at most this many assets, always on different platforms and formats.
+max_assets_per_moment: 2
+
+# Targets written into each asset's notes (the "Measurable" check). Replace with numbers derived from
+# the audit baseline and your chosen benchmark (plan.md §10.8).
+targets:
+  Short video: "views >= audit median for the platform; ER (by views) >= benchmark"
+  Carousel: "saves + shares >= 2% of impressions; ER >= benchmark"
+  Graphic: "ER >= benchmark"
+  Text post: "ER (by impressions) >= benchmark; 1+ link click"
+  Thread: "ER (by impressions) >= benchmark; 1+ link click"

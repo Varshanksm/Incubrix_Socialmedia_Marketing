@@ -1,0 +1,5 @@
+# UTM convention (plan.md §6). The base URL can be overridden with UTM_BASE_URL in .env.
+base_url: https://www.incubrix.com/
+medium: social
+campaign: ge2_launch
+# utm_source comes from platforms.yaml; utm_content is always the asset_id (lowercase).

@@ -1,0 +1,13 @@
+# Weekly posting slots in local time. These are a starting hypothesis (plan.md §6), not a sourced claim:
+# week-1 results decide week 2. The calendar stores UTC; the local time goes into notes.
+timezone: America/New_York
+
+slots:
+  LinkedIn: ["Tue 08:30", "Wed 08:30", "Thu 08:30", "Mon 09:00", "Fri 09:00", "Tue 12:00", "Thu 12:00"]
+  Instagram: ["Mon 12:00", "Tue 19:00", "Wed 12:00", "Thu 19:00", "Fri 12:00", "Sat 11:00", "Sun 19:00"]
+  YouTube Shorts: ["Mon 15:00", "Tue 15:00", "Wed 15:00", "Thu 15:00", "Fri 15:00", "Sat 14:00", "Sun 14:00"]
+  X: ["Mon 09:30", "Tue 09:30", "Wed 09:30", "Thu 09:30", "Fri 09:30", "Tue 13:00", "Thu 13:00"]
+  Threads: ["Mon 10:00", "Tue 10:00", "Wed 10:00", "Thu 10:00", "Fri 10:00", "Sat 10:00", "Sun 10:00"]
+  TikTok: ["Mon 18:00", "Tue 18:00", "Wed 18:00", "Thu 18:00", "Fri 18:00"]
+  Facebook: ["Mon 11:00", "Wed 11:00", "Fri 11:00"]
+  Reddit: ["Tue 10:00", "Thu 10:00"]

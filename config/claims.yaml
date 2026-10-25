@@ -1,0 +1,40 @@
+# Product claims allowlist (plan.md §5). ONLY features you have SEEN WORKING in the product.
+#
+# Any sentence that mentions IncuBrix together with a feature term must match one of the verified claims'
+# `match` phrases, or the asset is rejected as "unverified claim".
+#
+# Day 1: fill `verified` from evidence/product/log.md. Example entry:
+#   - id: clips
+#     match: ["pulls clips from", "turns a long video into clips"]
+#     text: "IncuBrix pulls clips from the best moments of a long video."
+#     evidence: evidence/product/2026-10-26_clip-extraction.png
+#     seen: 2026-10-26 14:05 IST
+
+feature_terms:
+  - transcript
+  - clip
+  - clips
+  - caption
+  - captions
+  - subtitle
+  - subtitles
+  - voice
+  - clone
+  - avatar
+  - schedule
+  - scheduling
+  - publish
+  - publishing
+  - post to
+  - translate
+  - translation
+  - brand kit
+  - analytics
+  - dashboard
+  - workspace
+  - insights
+  - trending
+  - free
+  - pricing
+
+verified: []

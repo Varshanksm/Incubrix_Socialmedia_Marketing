@@ -1,0 +1,86 @@
+# Platform and format rules the engine enforces. Names match the workbook's dropdown lists exactly.
+# Verify every limit against the platform's help pages and cite them in SOURCES.md (plan.md §7.3).
+
+platforms:
+  LinkedIn:
+    code: LI
+    utm_source: linkedin
+    caption_max: 3000
+    hook_window: 140          # characters shown before "see more"
+    hashtags: [3, 3]          # min, max
+    link_mode: in_post
+  Instagram:
+    code: IG
+    utm_source: instagram
+    caption_max: 2200
+    hashtags: [3, 5]
+    link_mode: bio            # caption links are not clickable
+  YouTube Shorts:
+    code: YT
+    utm_source: youtube
+    caption_max: 5000         # description
+    title_max: 100
+    hashtags: [3, 3]
+    link_mode: channel        # links in Shorts descriptions are not clickable (verify)
+  X:
+    code: X
+    utm_source: x
+    post_max: 280
+    hashtags: [0, 1]
+    link_mode: last_post
+  Threads:
+    code: TH
+    utm_source: threads
+    caption_max: 500
+    hashtags: [0, 1]
+    link_mode: in_post
+  TikTok:
+    code: TT
+    utm_source: tiktok
+    caption_max: 2200
+    hashtags: [3, 5]
+    link_mode: bio
+  Facebook:
+    code: FB
+    utm_source: facebook
+    caption_max: 5000
+    hashtags: [0, 3]
+    link_mode: in_post
+  Reddit:
+    code: RD
+    utm_source: reddit
+    caption_max: 10000
+    hashtags: [0, 0]
+    link_mode: in_post
+
+formats:
+  Short video:
+    code: SV
+    family: video
+    width: 1080
+    height: 1920
+    max_seconds: 60
+    min_seconds: 12
+    hook_max_words: 8         # on-screen text in the first 2 seconds
+  Carousel:
+    code: CR
+    family: carousel
+    width: 1080
+    height: 1350
+    slides: [6, 10]
+  Graphic:
+    code: GR
+    family: graphic
+    width: 1080
+    height: 1350
+  Text post:
+    code: TX
+    family: text
+    min_words: 40
+  Thread:
+    code: TD
+    family: thread
+    posts: [4, 7]
+  Long video:
+    code: LV
+    family: video
