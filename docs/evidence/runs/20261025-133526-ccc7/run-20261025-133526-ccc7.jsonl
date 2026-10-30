@@ -1,0 +1,11 @@
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "warn", "stage": "run", "message": "using the mock writer (free, deterministic, lower quality). For real output set GE_LLM=claude and ANTHROPIC_API_KEY in .env"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "ingest", "message": "i2_blog: text, 662 words"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "moments", "message": "extracting ideas from 1 new part(s); 7 cached"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "moments", "message": "16 ideas (2 new)"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "plan", "message": "2 new assets planned (target 2, existing 20)"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "write", "message": "writing 2 assets with mock (mock)"}
+{"ts": "2026-10-25T08:05:26Z", "run_id": "20261025-133526-ccc7", "level": "debug", "stage": "render", "message": "X-TD-ee3c34 rendered", "files": {"final": "thread.txt", "source": "source/copy.json"}}
+{"ts": "2026-10-25T08:05:27Z", "run_id": "20261025-133526-ccc7", "level": "debug", "stage": "render", "message": "IG-CR-d39d5d rendered", "files": {"source": "source/slides.json", "slides": ["final/slide_01.png", "final/slide_02.png", "final/slide_03.png", "final/slide_04.png", "final/slide_05.png", "final/slide_06.png", "final/slide_07.png", "final/slide_08.png"], "final": "final/"}}
+{"ts": "2026-10-25T08:05:27Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "render", "message": "rendered 2 assets"}
+{"ts": "2026-10-25T08:05:27Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "check", "message": "2 of 2 passed every check"}
+{"ts": "2026-10-25T08:05:27Z", "run_id": "20261025-133526-ccc7", "level": "info", "stage": "export", "message": "calendar.csv: 30 ready assets in the library"}

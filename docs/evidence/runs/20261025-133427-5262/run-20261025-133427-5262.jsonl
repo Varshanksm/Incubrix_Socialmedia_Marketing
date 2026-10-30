@@ -1,0 +1,17 @@
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "warn", "stage": "run", "message": "using the mock writer (free, deterministic, lower quality). For real output set GE_LLM=claude and ANTHROPIC_API_KEY in .env"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "ingest", "message": "test_talk: video, 266 words, 1.8 min"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "moments", "message": "extracting ideas from 1 new part(s); 0 cached"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "moments", "message": "4 ideas (4 new)"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "plan", "message": "8 new assets planned (target 12, existing 0)"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "write", "message": "writing 8 assets with mock (mock)"}
+{"ts": "2026-10-25T08:04:27Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "LI-TX-e0c7e0 rendered", "files": {"final": "post.txt", "source": "source/copy.json"}}
+{"ts": "2026-10-25T08:04:45Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "YT-SV-5be88c rendered", "files": {"final": "final.mp4", "source": "source/", "captions": "source/captions.ass", "cut": "source/cut.json"}}
+{"ts": "2026-10-25T08:05:03Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "IG-SV-8ff486 rendered", "files": {"final": "final.mp4", "source": "source/", "captions": "source/captions.ass", "cut": "source/cut.json"}}
+{"ts": "2026-10-25T08:05:03Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "X-TD-799b4d rendered", "files": {"final": "thread.txt", "source": "source/copy.json"}}
+{"ts": "2026-10-25T08:05:04Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "IG-CR-e0c7e0 rendered", "files": {"source": "source/slides.json", "slides": ["final/slide_01.png", "final/slide_02.png", "final/slide_03.png", "final/slide_04.png", "final/slide_05.png", "final/slide_06.png", "final/slide_07.png"], "final": "final/"}}
+{"ts": "2026-10-25T08:05:05Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "LI-CR-5be88c rendered", "files": {"source": "source/slides.json", "slides": ["final/slide_01.png", "final/slide_02.png", "final/slide_03.png", "final/slide_04.png", "final/slide_05.png", "final/slide_06.png", "final/slide_07.png", "final/slide_08.png", "final/slide_09.png"], "final": "final.pdf"}}
+{"ts": "2026-10-25T08:05:05Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "TH-TX-8ff486 rendered", "files": {"final": "post.txt", "source": "source/copy.json"}}
+{"ts": "2026-10-25T08:05:24Z", "run_id": "20261025-133427-5262", "level": "debug", "stage": "render", "message": "LI-SV-799b4d rendered", "files": {"final": "final.mp4", "source": "source/", "captions": "source/captions.ass", "cut": "source/cut.json"}}
+{"ts": "2026-10-25T08:05:24Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "render", "message": "rendered 8 assets"}
+{"ts": "2026-10-25T08:05:25Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "check", "message": "8 of 8 passed every check"}
+{"ts": "2026-10-25T08:05:25Z", "run_id": "20261025-133427-5262", "level": "info", "stage": "export", "message": "calendar.csv: 28 ready assets in the library"}
